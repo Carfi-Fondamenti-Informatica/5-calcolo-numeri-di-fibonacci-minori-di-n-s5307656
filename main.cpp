@@ -10,6 +10,9 @@ int main() {
             primo=terzo;
     while (terzo<=n) {
         cout << terzo << endl;
+        terzo = primo+secondo;
+        secondo = primo;
+        primo = terzo;
     }
         }
     return 0;
