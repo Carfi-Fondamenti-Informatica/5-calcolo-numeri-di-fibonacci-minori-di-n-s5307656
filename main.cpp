@@ -8,7 +8,7 @@ int main() {
             terzo=primo+secondo;
             secondo=primo;
             primo=terzo;
-    if (terzo<=n) {
+    while (terzo<=n) {
         cout << terzo << endl;
     }
         }
